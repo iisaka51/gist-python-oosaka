@@ -1,5 +1,8 @@
 # gist-python-osaka
 
+ドキュメント共有サービス [Gist](https://gist.github.com/) で資料を公開。’
+それを github でプロジェクトとして管理してみる。
+
 ## github への公開鍵を登録
 
 github に公開鍵を登録しておきます。
