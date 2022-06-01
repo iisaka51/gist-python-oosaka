@@ -65,7 +65,16 @@ $ git submodule add git@gist.github.com:dab73746bdad509e69ae0fab554e86bb.git pyt
 これで、github のレポジトリ https://github.com/iisaka51/gist-python-osaka として
 Gistのドキュメントを管理するとができます。
 
-共同で資料作成する場合に便利です。
+## レポジトリをクローン
+
+共同で資料作成する場合は、はじめにレポジトリをクローンします。
+
+```bash
+$ git clone --recurse-submodules https://github.com/iisaka51/gist-python-osaka
+```
+
+あとは、通常のソースコード管理と同じですね。
+
 
 ## ScrapBox から資料を抜き出す
 
@@ -79,3 +88,5 @@ $ sb2md "PythonOsaka/伝言板&ChangeLog"  > 01_ChangeLog.md
 既知の問題としは次のものがあります。
 
 - ScrapBox の "[ドキュメント名]" の表記がうまくリンクにしてくれない
+
+
