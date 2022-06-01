@@ -32,6 +32,11 @@ $ git add python_logo.png
 https://gist.github.com/iisaka51/dab73746bdad509e69ae0fab554e86bb
 ) に '/raw/python_logo.png' をつけてアクセスできます。
 
+```
+![python-logo](https://gist.github.com/iisaka51/dab73746bdad509e69ae0fab554e86bb/raw/python-logo.png)
+```
+
+
 ## github への公開鍵を登録
 
 github に公開鍵を登録しておきます。
