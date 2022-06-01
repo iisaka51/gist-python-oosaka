@@ -3,6 +3,28 @@
 ドキュメント共有サービス [Gist](https://gist.github.com/) で資料を公開。’
 それを github でプロジェクトとして管理してみる。
 
+## gist について
+
+- お手軽にコードやファイル公開することが出来る
+- 1つのGistがレポジトリとして管理されている
+- GitHub Flavored Markdown (GFM) で書かれたものはHTMLに変換される
+ - ドキュメント作成が簡単
+- 後から画像を置くこともできる
+- 外部のブログなどから、GistのURLの内容を取り込むことができる。
+ - 実体はGistに存在したまま、他で利用できるいうこと
+- Githubのサービス
+- 共同での作業が比較的簡単
+
+## gist へ画像を追加する手順
+
+```bash
+$ git add python_logo.png
+```
+
+こうすると、gist の URL(python-osakaの場合は、
+https://gist.github.com/iisaka51/dab73746bdad509e69ae0fab554e86bb
+) に '/raw/python_logo.png' をつけてアクセスできます。
+
 ## github への公開鍵を登録
 
 github に公開鍵を登録しておきます。
