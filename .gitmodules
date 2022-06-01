@@ -1,0 +1,3 @@
+[submodule "python-osaka"]
+	path = python-osaka
+	url = git@gist.github.com:dab73746bdad509e69ae0fab554e86bb.git
