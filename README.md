@@ -21,6 +21,7 @@
 
 #### Cons
 - ディレクトリの概念がないため管理しずらい
+- コメント蘭を非表示にすることができない。([参考](https://github.community/t/feature-request-disable-comments-on-gisthub/134564))
 
 ## gist へ画像を追加する手順
 
